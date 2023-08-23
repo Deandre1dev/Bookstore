@@ -30,11 +30,14 @@ Bookstore businesses will use this project as it will enable them to manage thie
 The goal of the project is to allow bookstores to move from an analog system to a digital inventory management system.
 
 ## How to install my project
+* Navigate to the GitHub repository page that contains the file
+* Locate and click the file you want to download
+* Click the Raw button on the top-right corner of the file page
+* Right-click the page and select Save as…, then name the file and choose where to save it on your device
+* Alternatively, you can click Releases or Commits to download a specific version of the file or the whole repository as a zip file
 
 ## How to use the project
 
 ## Credits
  Author : Deandre' Wright
  Deandre' Wright maintains the code for this project.
-
-## Example2
