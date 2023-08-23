@@ -37,7 +37,12 @@ The goal of the project is to allow bookstores to move from an analog system to 
 * Alternatively, you can click Releases or Commits to download a specific version of the file or the whole repository as a zip file
 
 ## How to use the project
-
+* After you dowloaded the projects files extract the zip file to access the  files and place it in a folder that you are going to use.
+* Open the bookstore.py file in a code editor.
+* You can add or replace the book values to suit your needs.
+* Comments in the code explains what each piece of code does.
+* Run and debug the python file to see the programs output visually in the terminal.
+  
 ## Credits
  Author : Deandre' Wright
  Deandre' Wright maintains the code for this project.
