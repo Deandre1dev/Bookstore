@@ -51,4 +51,4 @@ The goal of the project is to allow bookstores to move from an analog system to 
  Deandre' Wright maintains the code for this project.
 
 ## Link to repository
- https://github.com/Deandre1dev/Bookstore/blob/main/README.md
+ [link to repository](https://github.com/Deandre1dev/Bookstore)
