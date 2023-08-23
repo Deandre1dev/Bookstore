@@ -18,10 +18,13 @@ The bookstore project act's as a database management system for a bookstore whic
    * book id
    * title
    * quantity
+
 2. update_book function request the user to choose what aspect of the book they want to update.
    * After they chose they can then update the chosen aspect.
+    
 3. delete_book function request all the books information in oreder to remove it from the table.
-4. search_book function request the books title and author of the book you are looking for in order for it to locate the book you are looking for.    
+   
+5. search_book function request the books title and author of the book you are looking for in order for it to locate the book you are looking for.    
 
 ## Who will use this repo or project
 Bookstore businesses will use this project as it will enable them to manage thier inventory.
