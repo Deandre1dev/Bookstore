@@ -3,7 +3,7 @@ The bookstore project act's as a database management system for a bookstore whic
 
 # Table of Contents
 1. [How does it work?](#How-does-it-work)
-2. [Who will use this repo or project?](#Who-will-use-this-repo-or-project)
+2. [Who will use this repo or project?](#Who-will-use-this-repository-or-project)
 3. [What is the goal of this project?](#What-is-the-goal-of-this-project)
 4. [How to install my project?](#How-to-install-my-project)
 5. [How to use the project?](#How-to-use-the-project)
@@ -26,7 +26,7 @@ The bookstore project act's as a database management system for a bookstore whic
    
 5. search_book function request the books title and author of the book you are looking for in order for it to locate the book you are looking for.    
 
-## Who will use this repo or project
+## Who will use this repository or project
 Bookstore businesses will use this project as it will enable them to manage thier inventory.
 
 ## What is the goal of this project
