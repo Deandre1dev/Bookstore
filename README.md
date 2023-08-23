@@ -3,11 +3,11 @@ The bookstore project act's as a database management system for a bookstore whic
 
 # Table of Contents
 1. [How does it work?](#How-does-it-work?)
-2. [Who will use this repo or project?](Who-will-use-this-repo-or-project?)
-3. [What is the goal of this project?](What-is-the-goal-of-this-project?)
-4. [How to install my project](How%20to%20install%20my%20project)
-5. [How to use the project](How-to-use-the-project)
-6. [Credits](Credits)
+2. [Who will use this repo or project?](#Who-will-use-this-repo-or-project?)
+3. [What is the goal of this project?](#What-is-the-goal-of-this-project?)
+4. [How to install my project](#How%20to%20install%20my%20project)
+5. [How to use the project](#How-to-use-the-project)
+6. [Credits](#Credits)
 
 ## How does it work?
 * This project works by creating a table called books if it does not already exist. 
