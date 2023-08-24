@@ -137,7 +137,7 @@ def Update_book():
     print('Which information do you want to update on a specific book : ')
     while True:
         try:
-            selection = int(input('''Enter one of the choices below :
+            choice = int(input('''Enter one of the choices below :
         1.Title of a book.
         2.Author of a book.
         3.Qty of a book.
@@ -145,7 +145,7 @@ def Update_book():
         
         \nEnter choice here : '''))
             # Update the title of the book.
-            if selection == 1:
+            if choice == 1:
                 Title = (input('Enter the title of the book : '))
                 new_title = (input('Enter the new title of the book : '))
             
@@ -154,7 +154,7 @@ def Update_book():
                 print('The title of the book has been updated successfully.\n')
                 break
             # Update the Author of the book.
-            elif selection == 2:
+            elif choice == 2:
                 Title = (input('Enter the title of the book you wish to update the Author on : '))
                 Author = (input('Enter the Author of the book : '))
                 new_author = (input('Enter the new Author of the book : '))
@@ -164,7 +164,7 @@ def Update_book():
                 print('The Author of the book has been successfully updated.\n')
                 break
             # Update the Qty of a book.
-            elif selection == 3:
+            elif choice == 3:
                 while True:
                     try:
                         Title = (input('Enter the title of the book you wish to update the quantity on : '))
@@ -176,7 +176,7 @@ def Update_book():
                         break
                     except ValueError:
                         print('Incorrect value entred.Please try again!...')
-            elif selection == 0:
+            elif choice == 0:
                     break
         except ValueError:
             print('Incorrect information has been entered.Please try again!...')
