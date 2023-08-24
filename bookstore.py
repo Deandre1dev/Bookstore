@@ -1,4 +1,4 @@
-
+# Bookstore project.
 # Import module.
 import sqlite3
 
@@ -17,7 +17,7 @@ try:
 except Exception as e :
     raise e
 
-# Values for database.
+# Values for the database that are going to be added to the table.
 id1 = 3001
 Title1 = 'A Tale of Two Cities'
 Author1 = 'Charles Dickens'
@@ -53,8 +53,8 @@ Title7 = 'Trust'
 Author7 = 'Herman Diaz'
 Qty7 = 23
 
-#Adding values to the table.
-#Insert book 1.
+# Inserting each of the following values to the table.
+# Insert book 1.
 cursor.execute('''INSERT INTO books(id, Title, Author, Qty)
                 VALUES(?,?,?,?)''', (id1, Title1, Author1, Qty1))
 print('Book 1 inserted')
@@ -89,10 +89,11 @@ cursor.execute('''INSERT INTO books(id, Title, Author, Qty)
                 VALUES(?,?,?,?)''', (id7, Title7, Author7, Qty7))
 print('Book 7 inserted')
 
+# When all of the values are created it then gets commited/saved to the table.
 db.commit()
 
 # Functions for the bookstore.2
-# Add a new book to the database.
+# The add_book function allows the user to add a new book to the database.
 def add_book():
     print('\nEnter the following information to add a new book : ')
     while True:
@@ -131,6 +132,7 @@ def add_book():
             print('\nEnter numerical values')   
         
 # Update a books information.
+# The Update_book function allows the user to update specific information about a book.
 def Update_book():
     print('Which information do you want to update on a specific book : ')
     while True:
@@ -180,6 +182,7 @@ def Update_book():
             print('Incorrect information has been entered.Please try again!...')
 
 # Delete a book from the database.
+# The delete_book function request information about a specific book they want to remove from the database.
 def delete_book():
     print('Enter the following information to delete the specified book : ')
     while True:
@@ -194,6 +197,7 @@ def delete_book():
             print('Incorrect information has been entered.Please try again!...')
 
 # Search the database for a specific book.
+# The search_book allows the user to search for a specific book by requesting information about the book.
 def search_book():
     print('Enter the following information to search for the specified book : ')
     while True:
@@ -217,6 +221,7 @@ def search_book():
                 print('The book you have searched for does not exist!')
           
 # Menu 
+# This menu is displayed to the user visually in the terminal which allows them to interact with the program.
 print('\t\t\t\tBookstore\n')
 while True:
     try:
